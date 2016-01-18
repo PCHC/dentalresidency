@@ -8,12 +8,12 @@
   },
   "assets/css/main.min.css": {
     "path": "assets/css/main.min.css",
-    "hash": "49fdc250d80c39e69c77a7394bf85fe2",
+    "hash": "745f944fd0305bcb421a715a4cf3f8e3",
     "handle": "roots_css"
   },
   "assets/js/scripts.min.js": {
     "path": "assets/js/scripts.min.js",
-    "hash": "2a5f9a0160e7104e61da937d84e33782",
+    "hash": "7a04d081dc30db03014e0a3dc63b038a",
     "handle": "roots_js"
   }
 }
