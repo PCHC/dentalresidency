@@ -1,4 +1,4 @@
-@import "../vendor/bourbon/dist/bourbon";
+@import "../vendor/bourbon/app/assets/stylesheets/bourbon";
 @import "../vendor/neat/app/assets/stylesheets/neat";
 @import "variables";
 
@@ -6,14 +6,14 @@ body {
 	.wrap-main {
 		margin-top: 4.5em;
 	}
-	
+
 	.main {
 		@include span-columns(7);
 		@include pad(0);
 	}
 
 	.sidebar {
-		@include span-columns(4); 
+		@include span-columns(4);
 		@include shift(1);
 		@include pad(0);
 		margin-right: 0;
@@ -31,7 +31,7 @@ body {
 				}
 			}
 		}
-		
+
 		&.navbar-secondary {
 			background: lighten(#000, 93%);
 
