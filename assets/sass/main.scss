@@ -149,7 +149,9 @@ header.banner-top {
 
 					a {
 						display: block;
-						white-space: nowrap;
+						min-width: 14em;
+						line-height: 1.2;
+						padding: 0.7em;
 						font-size: 1em;
 						border-top: 1px solid rgba(#FFF, 0.3);
 					}
@@ -421,7 +423,6 @@ footer.content-info {
 	@include shadow-z-2;
 
 	.copyright {
-		line-height: 2.5em;
 		padding: em(12px) 0;
 		@include media($screen-sm-min) {
 			text-align: left;
@@ -430,7 +431,6 @@ footer.content-info {
 	}
 
 	.footer-locations {
-		line-height: 1.25em;
 		padding: em(12px) 0;
 		@include media($screen-sm-min) {
 			text-align: right;
