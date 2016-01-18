@@ -14,7 +14,9 @@
 
   <div class="wrap wrap-main">
     <?php if( is_front_page() ) : ?>
-      <?php masterslider(1); ?>
+      <?php if( function_exists("masterslider") ) :
+        masterslider(1);
+      endif; ?>
     <?php endif; ?>
     <div class="container" role="document">
       <div class="content row">
