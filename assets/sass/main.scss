@@ -393,7 +393,7 @@ header.banner-top {
 		list-style-type: none;
 
 		> .active {
-			background: #f7f8fc; 
+			background: #f7f8fc;
 		}
 
 		li {
@@ -417,7 +417,9 @@ header.banner-top {
 		}
 
 		.dropdown-menu {
-			font-weight: 300;
+			a {
+				font-weight: 300;
+			}
 		}
 	}
 }
