@@ -392,6 +392,10 @@ header.banner-top {
 		padding: 0;
 		list-style-type: none;
 
+		> .active {
+			background: #f7f8fc;
+		}
+
 		li {
 			margin: 0;
 			padding: 0;
@@ -404,11 +408,16 @@ header.banner-top {
 			padding: 0.5em;
 			border-bottom: 1px solid $color-gray-100;
 			transition: all 0.15s ease-out;
+			font-weight: 500;
 
 			&:hover {
 				background: $color-gray-50;
 				@include shadow-z-1;
 			}
+		}
+
+		.dropdown-menu {
+			font-weight: 300;
 		}
 	}
 }
